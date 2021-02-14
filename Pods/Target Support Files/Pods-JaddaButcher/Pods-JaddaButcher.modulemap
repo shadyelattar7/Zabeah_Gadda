@@ -1,0 +1,6 @@
+framework module Pods_JaddaButcher {
+  umbrella header "Pods-JaddaButcher-umbrella.h"
+
+  export *
+  module * { export * }
+}

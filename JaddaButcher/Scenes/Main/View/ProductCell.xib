@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ArbFONTS-Tajawal-Regular-1.ttf">
+            <string>Tajawal-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCell" id="gTV-IL-0wX" customClass="ProductCell" customModule="JaddaButcher" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="165" height="207"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="165" height="207"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4EX-w3-Ys4">
+                        <rect key="frame" x="0.0" y="0.0" width="165" height="207"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo11" translatesAutoresizingMaskIntoConstraints="NO" id="1lN-lB-o7a">
+                                <rect key="frame" x="0.0" y="0.0" width="165" height="159"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تيس بلدي" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="2Pr-3n-9ed">
+                                <rect key="frame" x="0.0" y="159" width="165" height="48"/>
+                                <color key="backgroundColor" red="0.81960784310000001" green="0.56862745100000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="5kK-A6-u27"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1lN-lB-o7a" firstAttribute="top" secondItem="4EX-w3-Ys4" secondAttribute="top" id="8T7-Fl-Pwg"/>
+                            <constraint firstItem="2Pr-3n-9ed" firstAttribute="leading" secondItem="4EX-w3-Ys4" secondAttribute="leading" id="99h-BF-VcZ"/>
+                            <constraint firstItem="2Pr-3n-9ed" firstAttribute="top" secondItem="1lN-lB-o7a" secondAttribute="bottom" id="A8m-qk-HA9"/>
+                            <constraint firstAttribute="trailing" secondItem="1lN-lB-o7a" secondAttribute="trailing" id="BDI-ch-BwG"/>
+                            <constraint firstItem="1lN-lB-o7a" firstAttribute="leading" secondItem="4EX-w3-Ys4" secondAttribute="leading" id="KKg-cm-JGj"/>
+                            <constraint firstAttribute="bottom" secondItem="2Pr-3n-9ed" secondAttribute="bottom" id="gEa-q2-99I"/>
+                            <constraint firstAttribute="trailing" secondItem="2Pr-3n-9ed" secondAttribute="trailing" id="ir5-Ty-ykd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="4EX-w3-Ys4" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3za-5g-dHh"/>
+                <constraint firstAttribute="trailing" secondItem="4EX-w3-Ys4" secondAttribute="trailing" id="DiQ-f4-IKm"/>
+                <constraint firstAttribute="bottom" secondItem="4EX-w3-Ys4" secondAttribute="bottom" id="GEN-bt-WSA"/>
+                <constraint firstItem="4EX-w3-Ys4" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Gc1-Us-Zol"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="143" height="125"/>
+            <connections>
+                <outlet property="itemImage_iv" destination="1lN-lB-o7a" id="xen-va-ZGe"/>
+                <outlet property="itemName_lbl" destination="2Pr-3n-9ed" id="YRi-eU-xZJ"/>
+                <outlet property="viewx" destination="4EX-w3-Ys4" id="9Of-LX-zjr"/>
+            </connections>
+            <point key="canvasLocation" x="64.492753623188406" y="147.65625"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="demo11" width="1200" height="972"/>
+    </resources>
+</document>

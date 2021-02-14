@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ArbFONTS-Tajawal-Medium.ttf">
+            <string>Tajawal-Medium</string>
+        </array>
+        <array key="ArbFONTS-Tajawal-Regular-1.ttf">
+            <string>Tajawal-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CartOtherCell" rowHeight="390" id="KGk-i7-Jjw" customClass="CartOtherCell" customModule="JaddaButcher" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="386" height="390"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="386" height="390"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yov-3o-drt">
+                        <rect key="frame" x="8" y="8" width="370" height="374"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="حاشي" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LRx-Yt-1aq">
+                                <rect key="frame" x="322" y="8" width="40" height="20"/>
+                                <fontDescription key="fontDescription" name="Tajawal-Medium" family="Tajawal Medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hiw-bK-gbU">
+                                <rect key="frame" x="8" y="8" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="AKc-gX-PWO"/>
+                                    <constraint firstAttribute="height" constant="20" id="L4Y-SX-U6E"/>
+                                </constraints>
+                                <state key="normal" image="Iconly-Bold-Delete"/>
+                                <connections>
+                                    <action selector="delete_btn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ZUf-RE-LKq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الحجم" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RfD-1v-vmj">
+                                <rect key="frame" x="216.5" y="49" width="32.5" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="لايوجد" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tqo-sI-t17">
+                                <rect key="frame" x="8" y="49" width="177" height="17.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="177" id="40r-6e-IQA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pwD-6j-LK8">
+                                <rect key="frame" x="3" y="74" width="246" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="XTD-eZ-8Pj"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التقطيع" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ki8-B1-OJo">
+                                <rect key="frame" x="210.5" y="89.5" width="38.5" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="٨ قطع" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKy-P8-jYu">
+                                <rect key="frame" x="8" y="89.5" width="150" height="17.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="bBs-fy-9f2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kq5-zi-Kmp">
+                                <rect key="frame" x="3" y="115" width="246" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="QTw-Df-Wag"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="السعر" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgU-WO-cwC">
+                                <rect key="frame" x="217.5" y="335.5" width="31.5" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HJI-aJ-I5w">
+                                <rect key="frame" x="8" y="335.5" width="36" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="العدد" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8u0-y3-QxB">
+                                <rect key="frame" x="222.5" y="367.5" width="26.5" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="c9O-pf-LiD">
+                                <rect key="frame" x="8" y="366.5" width="100" height="20"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwN-vN-oRM">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                        <color key="backgroundColor" red="0.84313725490000002" green="0.2470588235" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="Eeh-GZ-NIA"/>
+                                            <constraint firstAttribute="height" constant="20" id="gXr-W0-P5X"/>
+                                        </constraints>
+                                        <state key="normal" title="-"/>
+                                        <connections>
+                                            <action selector="adjCount_btn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ojA-9l-dvd"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="14r-GV-4kz">
+                                        <rect key="frame" x="36" y="0.0" width="28" height="20"/>
+                                        <fontDescription key="fontDescription" name="Tajawal-Medium" family="Tajawal Medium" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8y-Bb-Lbv">
+                                        <rect key="frame" x="80" y="0.0" width="20" height="20"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="LiT-Ix-N6J"/>
+                                            <constraint firstAttribute="height" constant="20" id="QWK-f3-owF"/>
+                                        </constraints>
+                                        <state key="normal" title="+"/>
+                                        <connections>
+                                            <action selector="adjCount_btn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ptk-Zo-Zsn"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="EvI-cI-vdU"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تغليف اللحم" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qeg-7o-F3T">
+                                <rect key="frame" x="187.5" y="130.5" width="61.5" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="كيس واحد كبير" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3Y-LH-Sn6">
+                                <rect key="frame" x="8" y="130.5" width="150" height="17.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="csa-7K-mR5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L0a-Rs-4ZI">
+                                <rect key="frame" x="3" y="156" width="246" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="CV0-m4-i5r"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الراس و الكوارع" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0i3-WC-btI">
+                                <rect key="frame" x="166.5" y="171.5" width="82.5" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="غير مطلوب" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIw-T5-rLn">
+                                <rect key="frame" x="8" y="171.5" width="140" height="17.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="Bmf-9c-kWK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CkT-xR-HL5">
+                                <rect key="frame" x="3" y="197" width="246" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="YqT-Po-ENZ"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الكرش و المصران" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tcl-8N-85Q">
+                                <rect key="frame" x="160.5" y="212.5" width="88.5" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="غير مطلوب" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8TO-4v-WKM">
+                                <rect key="frame" x="8" y="212.5" width="124" height="17.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="124" id="bpx-Bl-ROF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IMH-ow-0cG">
+                                <rect key="frame" x="3" y="238" width="246" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="zv2-no-qvq"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مفروم" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8kD-dX-gME">
+                                <rect key="frame" x="220.5" y="253.5" width="28.5" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hh-an-8nv">
+                                <rect key="frame" x="8" y="253.5" width="150" height="17.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Trj-el-nTd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NKt-dS-QtD">
+                                <rect key="frame" x="3" y="279" width="246" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="MQe-mO-YCK"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تقطيع شوربة و مفلفل" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fr-bI-qJt">
+                                <rect key="frame" x="140" y="294.5" width="109" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ca-UN-TiV">
+                                <rect key="frame" x="8" y="294.5" width="96" height="17.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="96" id="kRz-32-z5A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ab8-r5-yHH">
+                                <rect key="frame" x="3" y="320" width="246" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Nf0-Qh-x4o"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 5745" translatesAutoresizingMaskIntoConstraints="NO" id="Xr1-q0-EGD">
+                                <rect key="frame" x="262" y="49" width="100" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="JjO-lo-Dnh"/>
+                                    <constraint firstAttribute="width" constant="100" id="jhy-6j-yP5"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Y3Y-LH-Sn6" firstAttribute="centerY" secondItem="Qeg-7o-F3T" secondAttribute="centerY" id="0Rw-2C-WNC"/>
+                            <constraint firstItem="Kq5-zi-Kmp" firstAttribute="top" secondItem="ki8-B1-OJo" secondAttribute="bottom" constant="8" id="1mc-fP-BQc"/>
+                            <constraint firstItem="L0a-Rs-4ZI" firstAttribute="leading" secondItem="yov-3o-drt" secondAttribute="leading" constant="3" id="21E-fU-uck"/>
+                            <constraint firstItem="Xr1-q0-EGD" firstAttribute="leading" secondItem="RfD-1v-vmj" secondAttribute="trailing" constant="13" id="35q-38-cSn"/>
+                            <constraint firstItem="CkT-xR-HL5" firstAttribute="top" secondItem="0i3-WC-btI" secondAttribute="bottom" constant="8" id="3if-Iq-BiM"/>
+                            <constraint firstItem="NKt-dS-QtD" firstAttribute="trailing" secondItem="IMH-ow-0cG" secondAttribute="trailing" id="3k0-9d-1Vy"/>
+                            <constraint firstItem="c9O-pf-LiD" firstAttribute="leading" secondItem="yov-3o-drt" secondAttribute="leading" constant="8" id="58E-Xu-7ef"/>
+                            <constraint firstItem="ki8-B1-OJo" firstAttribute="trailing" secondItem="RfD-1v-vmj" secondAttribute="trailing" id="5pv-eK-bvq"/>
+                            <constraint firstItem="Kq5-zi-Kmp" firstAttribute="trailing" secondItem="ki8-B1-OJo" secondAttribute="trailing" id="5zn-f6-8Hl"/>
+                            <constraint firstItem="8u0-y3-QxB" firstAttribute="trailing" secondItem="sgU-WO-cwC" secondAttribute="trailing" id="78Q-Vs-gUS"/>
+                            <constraint firstItem="0i3-WC-btI" firstAttribute="top" secondItem="L0a-Rs-4ZI" secondAttribute="bottom" constant="14.5" id="7rH-NN-ulj"/>
+                            <constraint firstItem="Tcl-8N-85Q" firstAttribute="trailing" secondItem="0i3-WC-btI" secondAttribute="trailing" id="9BP-zI-6m8"/>
+                            <constraint firstItem="NKt-dS-QtD" firstAttribute="leading" secondItem="yov-3o-drt" secondAttribute="leading" constant="3" id="9Um-nT-ldq"/>
+                            <constraint firstItem="4fr-bI-qJt" firstAttribute="top" secondItem="NKt-dS-QtD" secondAttribute="bottom" constant="14.5" id="AZX-kx-4tw"/>
+                            <constraint firstItem="8kD-dX-gME" firstAttribute="trailing" secondItem="Tcl-8N-85Q" secondAttribute="trailing" id="Ab0-Dm-ld3"/>
+                            <constraint firstItem="LRx-Yt-1aq" firstAttribute="centerY" secondItem="Hiw-bK-gbU" secondAttribute="centerY" id="AzA-E8-KQL"/>
+                            <constraint firstItem="pwD-6j-LK8" firstAttribute="top" secondItem="RfD-1v-vmj" secondAttribute="bottom" constant="7.5" id="BxO-TZ-cl1"/>
+                            <constraint firstItem="L0a-Rs-4ZI" firstAttribute="trailing" secondItem="Kq5-zi-Kmp" secondAttribute="trailing" id="D0o-GI-dFT"/>
+                            <constraint firstItem="pwD-6j-LK8" firstAttribute="leading" secondItem="yov-3o-drt" secondAttribute="leading" constant="3" id="Dak-8L-0GH"/>
+                            <constraint firstItem="c9O-pf-LiD" firstAttribute="centerY" secondItem="8u0-y3-QxB" secondAttribute="centerY" id="Drv-nh-c7N"/>
+                            <constraint firstItem="8kD-dX-gME" firstAttribute="top" secondItem="IMH-ow-0cG" secondAttribute="bottom" constant="14.5" id="IEE-uh-C9p"/>
+                            <constraint firstItem="HJI-aJ-I5w" firstAttribute="leading" secondItem="yov-3o-drt" secondAttribute="leading" constant="8" id="JVO-RM-4Sd"/>
+                            <constraint firstItem="NKt-dS-QtD" firstAttribute="top" secondItem="8kD-dX-gME" secondAttribute="bottom" constant="8" id="JjI-Cv-Z9K"/>
+                            <constraint firstItem="RfD-1v-vmj" firstAttribute="top" secondItem="LRx-Yt-1aq" secondAttribute="bottom" constant="21" id="Ldc-YL-CIh"/>
+                            <constraint firstItem="4fr-bI-qJt" firstAttribute="trailing" secondItem="8kD-dX-gME" secondAttribute="trailing" id="OIf-gh-U9B"/>
+                            <constraint firstItem="KIw-T5-rLn" firstAttribute="centerY" secondItem="0i3-WC-btI" secondAttribute="centerY" id="ObL-Ie-OkG"/>
+                            <constraint firstItem="8TO-4v-WKM" firstAttribute="leading" secondItem="yov-3o-drt" secondAttribute="leading" constant="8" id="Ojq-hB-PNU"/>
+                            <constraint firstItem="LRx-Yt-1aq" firstAttribute="top" secondItem="yov-3o-drt" secondAttribute="top" constant="8" id="R5Z-em-aF2"/>
+                            <constraint firstItem="3ca-UN-TiV" firstAttribute="leading" secondItem="yov-3o-drt" secondAttribute="leading" constant="8" id="RnW-s4-Zj1"/>
+                            <constraint firstItem="Tqo-sI-t17" firstAttribute="leading" secondItem="yov-3o-drt" secondAttribute="leading" constant="8" id="S99-UN-Do1"/>
+                            <constraint firstItem="HJI-aJ-I5w" firstAttribute="centerY" secondItem="sgU-WO-cwC" secondAttribute="centerY" id="Su7-Fy-tb7"/>
+                            <constraint firstItem="CkT-xR-HL5" firstAttribute="leading" secondItem="yov-3o-drt" secondAttribute="leading" constant="3" id="Utn-ig-iRE"/>
+                            <constraint firstItem="Kq5-zi-Kmp" firstAttribute="leading" secondItem="yov-3o-drt" secondAttribute="leading" constant="3" id="W6U-rT-pV5"/>
+                            <constraint firstItem="ab8-r5-yHH" firstAttribute="top" secondItem="4fr-bI-qJt" secondAttribute="bottom" constant="8" id="YDR-rb-Djn"/>
+                            <constraint firstItem="CkT-xR-HL5" firstAttribute="trailing" secondItem="L0a-Rs-4ZI" secondAttribute="trailing" id="YTN-tU-zg8"/>
+                            <constraint firstItem="Hiw-bK-gbU" firstAttribute="top" secondItem="yov-3o-drt" secondAttribute="top" constant="8" id="ZBd-br-LcF"/>
+                            <constraint firstItem="9hh-an-8nv" firstAttribute="leading" secondItem="yov-3o-drt" secondAttribute="leading" constant="8" id="ZOL-S4-A0o"/>
+                            <constraint firstItem="KIw-T5-rLn" firstAttribute="leading" secondItem="yov-3o-drt" secondAttribute="leading" constant="8" id="aPR-tv-eS5"/>
+                            <constraint firstItem="pwD-6j-LK8" firstAttribute="trailing" secondItem="RfD-1v-vmj" secondAttribute="trailing" id="ayr-fm-nfm"/>
+                            <constraint firstItem="3ca-UN-TiV" firstAttribute="centerY" secondItem="4fr-bI-qJt" secondAttribute="centerY" id="c8s-sZ-6Pj"/>
+                            <constraint firstItem="Y3Y-LH-Sn6" firstAttribute="leading" secondItem="yov-3o-drt" secondAttribute="leading" constant="8" id="cDn-tF-NNT"/>
+                            <constraint firstItem="ki8-B1-OJo" firstAttribute="top" secondItem="pwD-6j-LK8" secondAttribute="bottom" constant="14.5" id="cJa-YD-X88"/>
+                            <constraint firstItem="ab8-r5-yHH" firstAttribute="leading" secondItem="yov-3o-drt" secondAttribute="leading" constant="3" id="ceC-op-why"/>
+                            <constraint firstItem="L0a-Rs-4ZI" firstAttribute="top" secondItem="Qeg-7o-F3T" secondAttribute="bottom" constant="8" id="dfo-xn-ApS"/>
+                            <constraint firstAttribute="trailing" secondItem="LRx-Yt-1aq" secondAttribute="trailing" constant="8" id="drQ-j3-k5W"/>
+                            <constraint firstItem="Tcl-8N-85Q" firstAttribute="top" secondItem="CkT-xR-HL5" secondAttribute="bottom" constant="14.5" id="e8H-xn-uOa"/>
+                            <constraint firstItem="sgU-WO-cwC" firstAttribute="top" secondItem="ab8-r5-yHH" secondAttribute="bottom" constant="14.5" id="g8q-mT-K5F"/>
+                            <constraint firstItem="Qeg-7o-F3T" firstAttribute="trailing" secondItem="ki8-B1-OJo" secondAttribute="trailing" id="gWy-3j-Y9p"/>
+                            <constraint firstItem="8u0-y3-QxB" firstAttribute="top" secondItem="sgU-WO-cwC" secondAttribute="bottom" constant="14.5" id="i7U-89-EK6"/>
+                            <constraint firstItem="mKy-P8-jYu" firstAttribute="centerY" secondItem="ki8-B1-OJo" secondAttribute="centerY" id="iTp-n9-Cnx"/>
+                            <constraint firstItem="IMH-ow-0cG" firstAttribute="trailing" secondItem="CkT-xR-HL5" secondAttribute="trailing" id="jSZ-dh-8YL"/>
+                            <constraint firstItem="8TO-4v-WKM" firstAttribute="centerY" secondItem="Tcl-8N-85Q" secondAttribute="centerY" id="kfW-Km-axC"/>
+                            <constraint firstItem="Qeg-7o-F3T" firstAttribute="top" secondItem="Kq5-zi-Kmp" secondAttribute="bottom" constant="14.5" id="mp0-Oc-2QW"/>
+                            <constraint firstItem="Tqo-sI-t17" firstAttribute="centerY" secondItem="RfD-1v-vmj" secondAttribute="centerY" id="nLW-od-QUD"/>
+                            <constraint firstItem="0i3-WC-btI" firstAttribute="trailing" secondItem="Qeg-7o-F3T" secondAttribute="trailing" id="nuD-YE-ogi"/>
+                            <constraint firstItem="sgU-WO-cwC" firstAttribute="trailing" secondItem="4fr-bI-qJt" secondAttribute="trailing" id="t3Q-kG-rbc"/>
+                            <constraint firstItem="IMH-ow-0cG" firstAttribute="leading" secondItem="yov-3o-drt" secondAttribute="leading" constant="3" id="tBF-SB-yya"/>
+                            <constraint firstItem="mKy-P8-jYu" firstAttribute="leading" secondItem="yov-3o-drt" secondAttribute="leading" constant="8" id="uo3-Nq-mss"/>
+                            <constraint firstItem="ab8-r5-yHH" firstAttribute="trailing" secondItem="NKt-dS-QtD" secondAttribute="trailing" id="vbr-uq-CEq"/>
+                            <constraint firstAttribute="trailing" secondItem="Xr1-q0-EGD" secondAttribute="trailing" constant="8" id="wDm-4T-Our"/>
+                            <constraint firstItem="9hh-an-8nv" firstAttribute="centerY" secondItem="8kD-dX-gME" secondAttribute="centerY" id="wiU-Xy-tZH"/>
+                            <constraint firstItem="Hiw-bK-gbU" firstAttribute="leading" secondItem="yov-3o-drt" secondAttribute="leading" constant="8" id="x5G-K7-KOa"/>
+                            <constraint firstItem="Xr1-q0-EGD" firstAttribute="top" secondItem="LRx-Yt-1aq" secondAttribute="bottom" constant="21" id="xHc-Hc-NtE"/>
+                            <constraint firstItem="IMH-ow-0cG" firstAttribute="top" secondItem="Tcl-8N-85Q" secondAttribute="bottom" constant="8" id="xuz-KV-bvD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="ThiredColor"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="yov-3o-drt" secondAttribute="bottom" constant="8" id="HS4-3s-YH4"/>
+                    <constraint firstItem="yov-3o-drt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="XDE-53-bDV"/>
+                    <constraint firstAttribute="trailing" secondItem="yov-3o-drt" secondAttribute="trailing" constant="8" id="eIG-MA-rQm"/>
+                    <constraint firstItem="yov-3o-drt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="sZe-IR-1q0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ChippingTitle_lbl" destination="mKy-P8-jYu" id="hl5-x8-jDs"/>
+                <outlet property="Chopped_lbl" destination="9hh-an-8nv" id="yc2-y6-OeD"/>
+                <outlet property="Packaging_lbl" destination="Y3Y-LH-Sn6" id="wpA-iq-prk"/>
+                <outlet property="Stomach_lbl" destination="8TO-4v-WKM" id="Clc-2K-hMM"/>
+                <outlet property="counter_lbl" destination="14r-GV-4kz" id="ife-VQ-vK5"/>
+                <outlet property="head_lbl" destination="KIw-T5-rLn" id="8xK-m1-6Dt"/>
+                <outlet property="min_btn" destination="vwN-vN-oRM" id="79Y-OX-PqU"/>
+                <outlet property="plus_btn" destination="B8y-Bb-Lbv" id="tbW-nH-4Ov"/>
+                <outlet property="productImage_iv" destination="Xr1-q0-EGD" id="G9d-YD-os7"/>
+                <outlet property="productName_lbl" destination="LRx-Yt-1aq" id="yns-g6-wK6"/>
+                <outlet property="productPrice_lbl" destination="HJI-aJ-I5w" id="hff-Pw-H1Y"/>
+                <outlet property="productSize_lbl" destination="Tqo-sI-t17" id="PKr-gm-sRN"/>
+                <outlet property="soup_lbl" destination="3ca-UN-TiV" id="5iT-1s-eK3"/>
+                <outlet property="viewX" destination="yov-3o-drt" id="KWF-Ig-iLh"/>
+            </connections>
+            <point key="canvasLocation" x="84.057971014492765" y="238.39285714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Group 5745" width="304" height="276"/>
+        <image name="Iconly-Bold-Delete" width="1156" height="1156"/>
+        <namedColor name="ThiredColor">
+            <color red="1" green="0.94499999284744263" blue="0.87099999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
