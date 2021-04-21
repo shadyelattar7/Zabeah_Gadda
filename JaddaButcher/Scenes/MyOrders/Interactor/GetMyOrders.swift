@@ -40,7 +40,7 @@ class ApiManagerMyOrders{
                     
                 }catch{
                     print("Error trying to decode response")
-                    print(error.localizedDescription)
+                    print(error)
                     completion(error.localizedDescription,nil)
                 }
             }

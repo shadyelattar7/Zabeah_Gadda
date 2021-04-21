@@ -19,6 +19,7 @@ class FirstVC: UIViewController {
     
 
     @IBAction func skip_btn(_ sender: Any) {
+        Core.shared.setIsNotNewUser()
         let rootViewController: UIWindow = ((UIApplication.shared.delegate?.window)!)!
         let stry = UIStoryboard(name: "Main", bundle: nil)
         rootViewController.rootViewController = stry.instantiateViewController(withIdentifier: "TabBarVC")

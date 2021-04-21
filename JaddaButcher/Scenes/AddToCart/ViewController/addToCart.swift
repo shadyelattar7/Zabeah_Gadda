@@ -460,9 +460,10 @@ extension addToCart: UICollectionViewDelegate,UICollectionViewDataSource,UIColle
         cell.mainTitle_lbl.text = productPrice[indexPath.row].name
         cell.subTitle_lbl.text = productPrice[indexPath.row].price
         
-        size = productPrice[indexPath.row].name ?? ""
-        price = productPrice[indexPath.row].price ?? ""
-        print("Total Price: \(price)")
+//        size = productPrice[indexPath.row].name ?? ""
+//        price = productPrice[indexPath.row].price ?? ""
+//        print("Total Price: \(price)")
+//        print("Size: \(size)")
         
         return cell
     }
@@ -473,6 +474,9 @@ extension addToCart: UICollectionViewDelegate,UICollectionViewDataSource,UIColle
         priceX = price
         selectedPrice = Double(price)!
         totalPrice = Double(price)!
+        
+        size = productPrice[indexPath.row].name ?? ""
+
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

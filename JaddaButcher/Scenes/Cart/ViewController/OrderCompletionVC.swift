@@ -37,7 +37,7 @@ class OrderCompletionVC: UIViewController, BEMCheckBoxDelegate {
     
     
     var product_id: Int = 0
-    var size: String = "1"
+    var size: String = ""
     var quantity: String = ""
     var price: String = ""
     var session_code: String = ""

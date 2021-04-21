@@ -24,14 +24,15 @@ class MainVC: UIViewController {
     
     var currentIndex = 0
     var timer: Timer?
-    let imageSlider = [
-        UIImage(named: "slidImageMOK")!,
-        UIImage(named: "slidImageMOK")!,
-        UIImage(named: "slidImageMOK")!,
-        UIImage(named: "slidImageMOK")!,
-        UIImage(named: "slidImageMOK")!,
-        
-    ]
+    
+//    let imageSlider = [
+//        UIImage(named: "slidImageMOK")!,
+//        UIImage(named: "slidImageMOK")!,
+//        UIImage(named: "slidImageMOK")!,
+//        UIImage(named: "slidImageMOK")!,
+//        UIImage(named: "slidImageMOK")!,
+//
+//    ]
     
     let productImg = [
         UIImage(named: "demo11")!,
@@ -70,7 +71,7 @@ class MainVC: UIViewController {
         productCollection.delegate = self
         productCollection.dataSource = self
         
-        self.pageControl.numberOfPages = self.imageSlider.count
+       // self.pageControl.numberOfPages = self.imageSlider.count
         
         let nibCell3 = UINib(nibName: productIdentfier, bundle: nil)
         productCollection.register(nibCell3, forCellWithReuseIdentifier: productIdentfier)
@@ -83,7 +84,7 @@ class MainVC: UIViewController {
     }
     
     @objc func handleTimerSliderImage(){
-        let desiredScrollPostion = (currentIndex < imageSlider.count - 1) ? currentIndex + 1 : 0
+        let desiredScrollPostion = (currentIndex < banners.count - 1) ? currentIndex + 1 : 0
         ImageSlider.scrollToItem(at: IndexPath(row: desiredScrollPostion, section: 0), at: .centeredHorizontally, animated: true)
         
     }

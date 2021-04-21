@@ -46,7 +46,8 @@ struct DetailMyOrder: Codable {
     let  orderID, quantity, price: String?
     let size, total: String?
     let notes, head, minced, parts: String?
-    let meatPackage, soupKilos, mincedKilos, kersh: String?
+    let meatPackage, kersh: String?
+    let soupKilos, mincedKilos: Int?
     let createdAt, updatedAt: String?
     let product: ProductMyOrder?
 

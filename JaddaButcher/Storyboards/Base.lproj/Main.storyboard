@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8Vs-hJ-uTO">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -297,13 +298,14 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="80"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="VPZ-gV-6YX">
-                                        <rect key="frame" x="294" y="-10" width="100" height="100"/>
+                                        <rect key="frame" x="343.66666666666669" y="15.000000000000004" width="50.333333333333314" height="50.333333333333343"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="VPZ-gV-6YX" secondAttribute="height" multiplier="1:1" id="moT-Wb-XXr"/>
+                                            <constraint firstAttribute="width" constant="50.329999999999998" id="HSv-OE-72p"/>
+                                            <constraint firstAttribute="height" constant="50.329999999999998" id="brf-Dd-7al"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ذبايح جدة" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4l-QM-FFI">
-                                        <rect key="frame" x="204.66666666666666" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
+                                        <rect key="frame" x="254.33333333333334" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="20"/>
                                         <color key="textColor" name="MainColor"/>
                                         <nil key="highlightedColor"/>
@@ -456,13 +458,14 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="80"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="A4q-EM-OOv">
-                                        <rect key="frame" x="294" y="-10" width="100" height="100"/>
+                                        <rect key="frame" x="343.66666666666669" y="15.000000000000004" width="50.333333333333314" height="50.333333333333343"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="A4q-EM-OOv" secondAttribute="height" multiplier="1:1" id="ZtE-HV-QlT"/>
+                                            <constraint firstAttribute="height" constant="50.329999999999998" id="PS3-fK-arX"/>
+                                            <constraint firstAttribute="width" constant="50.329999999999998" id="pzI-Pv-2ij"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ذبايح جدة" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q90-dL-y0E">
-                                        <rect key="frame" x="204.66666666666666" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
+                                        <rect key="frame" x="254.33333333333334" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="20"/>
                                         <color key="textColor" name="MainColor"/>
                                         <nil key="highlightedColor"/>
@@ -503,7 +506,6 @@
                             <constraint firstItem="P81-4e-MoZ" firstAttribute="leading" secondItem="pyd-ts-Qio" secondAttribute="leading" id="8tS-86-iRb"/>
                             <constraint firstItem="49k-CE-5Ft" firstAttribute="centerX" secondItem="pyd-ts-Qio" secondAttribute="centerX" id="D24-ia-oBZ"/>
                             <constraint firstItem="Uh4-bv-IGu" firstAttribute="trailing" secondItem="t6B-cK-dNq" secondAttribute="trailing" id="E7X-0X-asH"/>
-                            <constraint firstItem="49k-CE-5Ft" firstAttribute="top" secondItem="Uh4-bv-IGu" secondAttribute="top" constant="100" id="FX7-i9-MlW"/>
                             <constraint firstItem="rsu-qr-2Rd" firstAttribute="leading" secondItem="Uh4-bv-IGu" secondAttribute="leading" constant="20" id="GAT-ms-qG3"/>
                             <constraint firstItem="e5l-cU-4z1" firstAttribute="bottom" secondItem="49k-CE-5Ft" secondAttribute="bottom" constant="-17" id="HY1-kC-1Qh"/>
                             <constraint firstItem="idk-hl-5qJ" firstAttribute="trailing" secondItem="Uh4-bv-IGu" secondAttribute="trailing" id="O0l-eK-bKV"/>
@@ -515,6 +517,7 @@
                             <constraint firstItem="e5l-cU-4z1" firstAttribute="centerX" secondItem="49k-CE-5Ft" secondAttribute="centerX" id="rdD-PB-it1"/>
                             <constraint firstItem="Uh4-bv-IGu" firstAttribute="trailing" secondItem="P81-4e-MoZ" secondAttribute="trailing" id="s5a-NV-kLm"/>
                             <constraint firstItem="P81-4e-MoZ" firstAttribute="top" secondItem="pyd-ts-Qio" secondAttribute="top" id="ukl-NU-QHa"/>
+                            <constraint firstItem="49k-CE-5Ft" firstAttribute="top" secondItem="idk-hl-5qJ" secondAttribute="bottom" constant="20" id="vvu-dH-FdG"/>
                             <constraint firstItem="idk-hl-5qJ" firstAttribute="height" secondItem="pyd-ts-Qio" secondAttribute="height" multiplier="0.0892857" id="xgH-I0-bDt"/>
                             <constraint firstItem="idk-hl-5qJ" firstAttribute="top" secondItem="Uh4-bv-IGu" secondAttribute="top" id="yTR-x9-gPv"/>
                         </constraints>
@@ -554,13 +557,14 @@
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="m2n-V0-0Jn">
-                                        <rect key="frame" x="253" y="-10" width="100" height="100"/>
+                                        <rect key="frame" x="302.66666666666669" y="15.000000000000004" width="50.333333333333314" height="50.333333333333343"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="m2n-V0-0Jn" secondAttribute="height" multiplier="1:1" id="cLU-jj-mvB"/>
+                                            <constraint firstAttribute="height" constant="50.329999999999998" id="C2O-lE-1PD"/>
+                                            <constraint firstAttribute="width" constant="50.329999999999998" id="fgK-kz-v2V"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ذبايح جدة" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGF-RD-gzb">
-                                        <rect key="frame" x="163.66666666666666" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
+                                        <rect key="frame" x="213.33333333333334" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="20"/>
                                         <color key="textColor" name="MainColor"/>
                                         <nil key="highlightedColor"/>
@@ -680,7 +684,7 @@
                                                                     <action selector="adjCounter_btn:" destination="jl6-NM-sg9" eventType="touchUpInside" id="FgB-ln-LoD"/>
                                                                 </connections>
                                                             </button>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="vFx-P6-8Wb">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="vFx-P6-8Wb">
                                                                 <rect key="frame" x="34" y="0.0" width="50" height="25"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="50" id="X6R-g8-WHt"/>
@@ -860,13 +864,14 @@
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="abo-gA-u8j">
-                                        <rect key="frame" x="253" y="-10" width="100" height="100"/>
+                                        <rect key="frame" x="302.66666666666669" y="15.000000000000004" width="50.333333333333314" height="50.333333333333343"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="abo-gA-u8j" secondAttribute="height" multiplier="1:1" id="Ynp-Pp-r7O"/>
+                                            <constraint firstAttribute="height" constant="50.329999999999998" id="aLJ-sj-BkW"/>
+                                            <constraint firstAttribute="width" constant="50.329999999999998" id="yFb-an-tFP"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ذبايح جدة" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8li-N5-dCi">
-                                        <rect key="frame" x="163.66666666666666" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
+                                        <rect key="frame" x="213.33333333333334" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="20"/>
                                         <color key="textColor" name="MainColor"/>
                                         <nil key="highlightedColor"/>
@@ -1231,13 +1236,14 @@
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Fql-pg-fbL">
-                                        <rect key="frame" x="253" y="21.666666666666657" width="100" height="100"/>
+                                        <rect key="frame" x="302.66666666666669" y="46.666666666666657" width="50.333333333333314" height="50.333333333333343"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="Fql-pg-fbL" secondAttribute="height" multiplier="1:1" id="zX7-KL-Voh"/>
+                                            <constraint firstAttribute="width" constant="50.329999999999998" id="Ia3-Tr-2fb"/>
+                                            <constraint firstAttribute="height" constant="50.329999999999998" id="cCk-b7-nBk"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ذبايح جدة" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzF-8e-0MC">
-                                        <rect key="frame" x="163.66666666666666" y="60.000000000000007" width="69.333333333333343" height="23.333333333333336"/>
+                                        <rect key="frame" x="213.33333333333334" y="60.000000000000007" width="69.333333333333343" height="23.333333333333336"/>
                                         <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="20"/>
                                         <color key="textColor" name="MainColor"/>
                                         <nil key="highlightedColor"/>
@@ -1960,13 +1966,14 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="80"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="hQm-PY-FmV">
-                                        <rect key="frame" x="294" y="-10" width="100" height="100"/>
+                                        <rect key="frame" x="343.66666666666669" y="15.000000000000004" width="50.333333333333314" height="50.333333333333343"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="hQm-PY-FmV" secondAttribute="height" multiplier="1:1" id="676-BW-Sdy"/>
+                                            <constraint firstAttribute="height" constant="50.329999999999998" id="1Dq-aq-R8z"/>
+                                            <constraint firstAttribute="width" constant="50.329999999999998" id="xUG-JR-Yip"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ذبايح جدة" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mPG-Dc-U9M">
-                                        <rect key="frame" x="204.66666666666666" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
+                                        <rect key="frame" x="254.33333333333334" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="20"/>
                                         <color key="textColor" name="MainColor"/>
                                         <nil key="highlightedColor"/>
@@ -2164,13 +2171,14 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="80"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="uJa-nM-iW7">
-                                        <rect key="frame" x="294" y="-10" width="100" height="100"/>
+                                        <rect key="frame" x="343.66666666666669" y="15.000000000000004" width="50.333333333333314" height="50.333333333333343"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="uJa-nM-iW7" secondAttribute="height" multiplier="1:1" id="Vlv-Dv-DQP"/>
+                                            <constraint firstAttribute="width" constant="50.329999999999998" id="FdE-Td-NQf"/>
+                                            <constraint firstAttribute="height" constant="50.329999999999998" id="N6h-GP-eBh"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ذبايح جدة" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1eg-5p-N7V">
-                                        <rect key="frame" x="204.66666666666666" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
+                                        <rect key="frame" x="254.33333333333334" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="20"/>
                                         <color key="textColor" name="MainColor"/>
                                         <nil key="highlightedColor"/>
@@ -2590,12 +2598,21 @@
                                     <action selector="confAddress:" destination="p4M-4P-Zn8" eventType="touchUpInside" id="V91-gB-wLz"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pin" translatesAutoresizingMaskIntoConstraints="NO" id="VYh-BQ-ZKf">
+                                <rect key="frame" x="182" y="423" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Dt3-aP-x7d"/>
+                                    <constraint firstAttribute="height" constant="50" id="pxh-1T-k7q"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="XSw-44-VIS" firstAttribute="leading" secondItem="Bjg-kx-sil" secondAttribute="leading" constant="48" id="0jy-eU-jbh"/>
+                            <constraint firstItem="VYh-BQ-ZKf" firstAttribute="centerX" secondItem="JMZ-rL-gDL" secondAttribute="centerX" id="4YY-u1-cj3"/>
                             <constraint firstItem="Bjg-kx-sil" firstAttribute="bottom" secondItem="XSw-44-VIS" secondAttribute="bottom" constant="16" id="7r0-5V-mIi"/>
                             <constraint firstItem="Bjg-kx-sil" firstAttribute="trailing" secondItem="BU9-MW-huO" secondAttribute="trailing" constant="20" id="M0g-YZ-YRJ"/>
+                            <constraint firstItem="VYh-BQ-ZKf" firstAttribute="centerY" secondItem="JMZ-rL-gDL" secondAttribute="centerY" id="TOC-gR-8Md"/>
                             <constraint firstItem="Bjg-kx-sil" firstAttribute="trailing" secondItem="vmW-4S-YOP" secondAttribute="trailing" id="grA-DK-4bo"/>
                             <constraint firstItem="vmW-4S-YOP" firstAttribute="leading" secondItem="Bjg-kx-sil" secondAttribute="leading" id="oW9-r4-IiH"/>
                             <constraint firstItem="XSw-44-VIS" firstAttribute="top" secondItem="BU9-MW-huO" secondAttribute="bottom" constant="28" id="sO2-VF-8hO"/>
@@ -2777,13 +2794,14 @@
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="7kF-41-q3Y">
-                                        <rect key="frame" x="253" y="-10" width="100" height="100"/>
+                                        <rect key="frame" x="302.66666666666669" y="15.000000000000004" width="50.333333333333314" height="50.333333333333343"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="7kF-41-q3Y" secondAttribute="height" multiplier="1:1" id="w01-8c-E8d"/>
+                                            <constraint firstAttribute="width" constant="50.329999999999998" id="FvH-XD-Jw8"/>
+                                            <constraint firstAttribute="height" constant="50.329999999999998" id="TDr-RY-hrj"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ذبايح جدة" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAs-bG-BA7">
-                                        <rect key="frame" x="163.66666666666666" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
+                                        <rect key="frame" x="213.33333333333334" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="20"/>
                                         <color key="textColor" name="MainColor"/>
                                         <nil key="highlightedColor"/>
@@ -2958,13 +2976,14 @@
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="mcu-09-alf">
-                                        <rect key="frame" x="253" y="-10" width="100" height="100"/>
+                                        <rect key="frame" x="302.66666666666669" y="15.000000000000004" width="50.333333333333314" height="50.333333333333343"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="mcu-09-alf" secondAttribute="height" multiplier="1:1" id="gRj-uJ-3lX"/>
+                                            <constraint firstAttribute="width" constant="50.329999999999998" id="I5S-6j-adO"/>
+                                            <constraint firstAttribute="height" constant="50.329999999999998" id="xv5-OR-YdN"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ذبايح جدة" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIa-pl-O2C">
-                                        <rect key="frame" x="163.66666666666666" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
+                                        <rect key="frame" x="213.33333333333334" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="20"/>
                                         <color key="textColor" name="MainColor"/>
                                         <nil key="highlightedColor"/>
@@ -3113,13 +3132,14 @@
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="efo-6W-u3i">
-                                        <rect key="frame" x="253" y="-10" width="100" height="100"/>
+                                        <rect key="frame" x="302.66666666666669" y="15.000000000000004" width="50.333333333333314" height="50.333333333333343"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="efo-6W-u3i" secondAttribute="height" multiplier="1:1" id="IOv-sR-Wyc"/>
+                                            <constraint firstAttribute="width" constant="50.329999999999998" id="UcH-xH-QmB"/>
+                                            <constraint firstAttribute="height" constant="50.329999999999998" id="zVI-JW-B74"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ذبايح جدة" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5PG-y7-R8b">
-                                        <rect key="frame" x="163.66666666666666" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
+                                        <rect key="frame" x="213.33333333333334" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="20"/>
                                         <color key="textColor" name="MainColor"/>
                                         <nil key="highlightedColor"/>
@@ -3239,13 +3259,14 @@ qNin2YTYrNmI2K/YqSDZiNin2YTYt9i52YUKC9in2LPYqtmF2KrYuSDYqNiq2KzYsdio2Kkg2LTYsdin
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="wNP-bc-iZw">
-                                        <rect key="frame" x="253" y="-10" width="100" height="100"/>
+                                        <rect key="frame" x="302.66666666666669" y="15.000000000000004" width="50.333333333333314" height="50.333333333333343"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="wNP-bc-iZw" secondAttribute="height" multiplier="1:1" id="mMs-wW-Dos"/>
+                                            <constraint firstAttribute="height" constant="50.329999999999998" id="NDr-LG-6bo"/>
+                                            <constraint firstAttribute="width" constant="50.329999999999998" id="TGS-ON-5Wb"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ذبايح جدة" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hmy-I2-9GG">
-                                        <rect key="frame" x="163.66666666666666" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
+                                        <rect key="frame" x="213.33333333333334" y="28.333333333333329" width="69.333333333333343" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Tajawal-Regular" family="Tajawal" pointSize="20"/>
                                         <color key="textColor" name="MainColor"/>
                                         <nil key="highlightedColor"/>
@@ -3322,9 +3343,10 @@ qNin2YTYrNmI2K/YqSDZiNin2YTYt9i52YUKC9in2LPYqtmF2KrYuSDYqNiq2KzYsdio2Kkg2LTYsdin
         <image name="facebook" width="399" height="399"/>
         <image name="final logo pomac" width="295" height="79"/>
         <image name="instgram" width="466" height="460"/>
-        <image name="logo" width="50.333332061767578" height="50.333332061767578"/>
+        <image name="logo" width="341.33334350585938" height="341.33334350585938"/>
         <image name="more" width="5" height="17"/>
         <image name="myOrders" width="20" height="18"/>
+        <image name="pin" width="64" height="64"/>
         <image name="reviewingOff" width="512" height="512"/>
         <image name="shipping_iconOff" width="215" height="165"/>
         <image name="twitter" width="442" height="442"/>

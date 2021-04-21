@@ -26,7 +26,7 @@ class ProductDetailsVC: UIViewController {
     @IBOutlet weak var addToCart_btn: UIButton!
     @IBOutlet weak var buyNow_btn: UIButton!
     
-    var adjCount: Int = 1
+    var adjCount: Int = 10
     
     var prdouctID: Int = 0
     var productImage: String = ""
@@ -96,7 +96,9 @@ class ProductDetailsVC: UIViewController {
         product_iv.sd_imageIndicator = SDWebImageActivityIndicator.grayLarge
         product_iv.sd_setImage(with: URL(string: imgName), placeholderImage: UIImage(named: "logo"))
         self.productName_lbl.text = productName
-        self.productPrice_lbl.text = productPrice
+        
+        let productPriceDouble = Double(productPrice)
+        self.productPrice_lbl.text = "\((productPriceDouble ?? 0.0) * 10) ريال"
         
     }
     
@@ -120,8 +122,7 @@ class ProductDetailsVC: UIViewController {
     }
     
     
-    
-    
+
     @IBAction func adjCounter_btn(_ sender: Any) {
         let tag: Int = (sender as AnyObject).tag
         if tag == 0{
@@ -131,7 +132,7 @@ class ProductDetailsVC: UIViewController {
             }
         }else{
             
-            if adjCount > 1 {
+            if adjCount > 10 {
                 adjCount = adjCount - 1
             }
         }
